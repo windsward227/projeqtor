@@ -3,16 +3,10 @@
 Projeqtor 8.2.4 docker images
 Docker Stack (PHP/apache/Projeqtor container + Mysql container + PHPMyAdmin container)
 
-## Requirements
-
-- Docker
-- Projeqtor package
-
 ## Prepare environnement
 
-- clear ./data sub-directories whith ./cleanall.sh
-- download and unzip [Projeqtor package](https://www.projeqtor.org/) to *./temp/*
-- copy *./temp/projeqtor* to *./data/www/*
+- clone repo into desired location.
+
 
 ## Build docker images
 
